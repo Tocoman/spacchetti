@@ -1479,8 +1479,8 @@
       "web-dom",
       "web-events"
     ],
-    "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v2.0.1"
+    "repo": "https://github.com/justinwoo/purescript-react-basic.git",
+    "version": "add-blur-focus"
   },
   "react-dom": {
     "dependencies": [

@@ -30,4 +30,14 @@
           ⫽ ./groups/brandonhamilton.dhall
           ⫽ ./groups/justinwoo.dhall
 
-in  packages
+in  let overrides =
+          { react-basic =
+                packages.react-basic
+              ⫽ { repo =
+                    "https://github.com/justinwoo/purescript-react-basic.git"
+                , version =
+                    "add-blur-focus"
+                }
+          }
+
+in  packages ⫽ overrides
